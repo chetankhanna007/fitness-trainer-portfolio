@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     /* border: 2px solid red; */
 }
+
 
 .responsive_logo_container{
     display: none;
@@ -23,6 +25,9 @@ body{
     display: none;
 }
 
+.cross_btn{
+    display: none;
+}
 
 button:hover{
     cursor: pointer !important;
@@ -482,15 +487,21 @@ nav{
 #transform_card_grid_container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-    gap: 40px;
+    column-gap: 50px;
     justify-content: center;
     text-align: left;
     margin-top: 30px;
+    row-gap: 40px;
 }
+
+
 
 .transform_card{
     border: 1.5px solid #989898;
     border-radius: 15px;
+    min-width: 200px;
+    padding: 0 10px;
+
 }
 
 .hidden{
@@ -503,6 +514,8 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    height: 200px;
+    margin-top: 10px;
 }
 
 .transform_imgs i{
@@ -823,7 +836,6 @@ hr+p{
 
 
 
-
 /* Below code is responsive */
 /*BUILDING NAV FOR TABLET*/
 
@@ -844,7 +856,7 @@ nav{
     border: 1px solid #6e6e6e;
     border-radius: 10px;
     flex-direction: column;
-    z-index: 5;
+    z-index: 3;
     height: 98.62vh;
 }
 
@@ -966,6 +978,7 @@ nav{
 .contact_grid_container{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 
 
 }
