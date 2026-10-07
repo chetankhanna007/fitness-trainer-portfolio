@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" name="hamburger_checkbox" id="hamburger_checkbox">
+        <nav class="navbar">
+            <div class="nav_logo"><img src="nav_logo.png" alt=""><label for="hamburger_checkbox"><i class="fa-solid fa-xmark cross_btn"></i></label></div>
+            <div class="nav_list">
+                <ul>
+                    <li class="nav_items"><a href="#">Home</a></li>
+                    <li class="nav_items"><a href="#about">About</a></li>
+                    <li class="nav_items"><a href="#services">Services</a></li>
+                    <li class="nav_items"><a href="#transform">Tranformation</a></li>
+                    <li class="nav_items"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="book_button"><a href="#contact"><button type="button" class="book_session_button primary-btn">Book Session<i class="fa-solid fa-calendar"></i></button></a></div>  
+        </nav>
+        <div class="below_nav">
+            <div class="headlines">
+                <div class='responsive_logo_container'>
+                     <label for="hamburger_checkbox"><i class="fa-solid fa-bars hamburger_btn" type="button"></i></label>
+                    <img src="nav_logo.png" alt="" class="responsive_below_nav_logo">
+                </div>
+                <p class="greenText role">PERSONAL FITNESS TRAINER</p>
+                <h1 class="tagline">Transform Your Body,<br>Transform <span class="greenText" class="tagline">Your Life</span></h1>
+                <p class="grayText desc">Personalized training programs, nutrition guidance, and unlimited support to help you become the best version of yourself.</p>
+                <div class="start_today_btns">
+                    <a href="#contact"><button type="button" class="start_today_button"> Start Today <i class="fa-solid fa-arrow-right-long"></i></button></a>
+                    <a href="#transform"><button type="button" class="watch_journey_button">Watch Journey<i class="fa-solid fa-caret-right"></i></button></a>
+                </div>
+                <div class="stats">
+                    <div class="stats_card"> 
+                        <div class="stats_logo_container"><i class="fa-solid fa-users stats_logo"></i></div>
+                        <div class="stats_num"><h2>500+</h2> <p id="grayText">Happy Clients</p></div>
+                    </div>
+                    <div class="stats_card"> 
+                        <div class="stats_logo_container"><i class="fa-solid fa-star stats_logo"></i></div>
+                        <div class="stats_num"><h2>12+</h2> <p id="grayText">Years of Experience</p></div>
+                    </div>
+                    <div class="stats_card"> 
+                        <div class="stats_logo_container"><i class="fa-solid fa-chart-line stats_logo"></i></div>
+                        <div class="stats_num"><h2>95%</h2> <p id="grayText">Success Rate</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_body_builder">
+                <img src="Header_body_builder.png" alt="">
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+        <div id="about_container">
+            <div id="about_image">
+                <img src="about_trainer.png" alt="about Trainer image">
+            </div>
+            <div id="about_me">
+                <p class="greenText">ABOUT ME</p>
+                <h1>Hi, I'm Sandeep Nayak</h1>
+                <p>Certified personal trainer with 12+ years of experience helping people achieve their fitness goals. My mission is to provide you with the tools, support and motivation you need to transform your body and life.</p>
+                <br>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check tick"></i>ACE Certified Personal Trainer</li>
+                    <li><i class="fa-solid fa-circle-check tick"></i>Nutrition & Wellness Coach</li>
+                    <li><i class="fa-solid fa-circle-check tick"></i>Strength & Conditioning Specialist</li>
+                </ul>
+            </div>
+            <div id="about_skills">
+                <p class="greenText">SKILLS & EXPERTISE
+                    <div class="skills">
+                        <div class="skill_and_percentage">
+                            <div class="skill">Weight Training</div>
+                            <div class="percentage">95%</div>
+                        </div>
+                        <div class="loading_bar">
+                            <div class="loaded"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill_and_percentage">
+                            <div class="skill">Fat Loss</div>
+                            <div class="percentage">90%</div>
+                        </div>
+                        <div class="loading_bar">
+                            <div class="loaded"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill_and_percentage">
+                            <div class="skill">Muscle Building</div>
+                            <div class="percentage">95%</div>
+                        </div>
+                        <div class="loading_bar">
+                            <div class="loaded"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill_and_percentage">
+                            <div class="skill">Nutrition Planning</div>
+                            <div class="percentage">85%</div>
+                        </div>
+                        <div class="loading_bar">
+                            <div class="loaded"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill_and_percentage">
+                            <div class="skill">Functional Training</div>
+                            <div class="percentage">90%</div>
+                        </div>
+                        <div class="loading_bar">
+                            <div class="loaded"></div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        </section>
+        <section id="services">
+        <p id="services_heading">SERVICES</p>
+        <h1>How I Can Help You?</h1>
+        <div id="services_card_container">
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <h3>Weight Loss</h3>
+                <p>Custom programs to help you burn fat and achieve a lean body.</p>
+            </div>
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>Muscle Gain</h3>
+                <p>Build strength and muscle with proven training techniques.</p>
+            </div>
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <h3>Nutrition Plan</h3>
+                <p>Personalized meal plans tailored to your goals and lifestyle.</p>
+            </div>
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-display"></i>
+                </div>
+                <h3>Online Coaching</h3>
+                <p>Train with me anytime, anywhere with online support.</p>
+            </div>
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                </div>
+                <h3>Strength Training</h3>
+                <p>Improve your strength and performance safely and effectively.</p>
+            </div>
+            <div class="services_card">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h3>Personal Training</h3>
+                <p>One-on-one sessions to help you stay on track and motivated.</p>
+            </div>
+        </div>
+    </section>
+    <section id="transform">
+        <p id="transform_heading">TRANSFORMATIONS</p>
+        <h1>Real People, Real Results</h1>
+        <div id="transform_card_grid_container">
+            <div class="transform_card">
+                <div class="transform_imgs">
+                    <img src="/adnan-sami-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/adnan-sami-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Adnan Sami</p>
+                <p class="transform_achievement"><span class="greenText">Lost 150kgs</span> weight in 16 months</p>
+            </div>
+            <div class="transform_card">
+                <div class="transform_imgs">
+                    <img src="/hritik-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/hritik-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Hritik Roshan</p>
+                <p class="transform_achievement"><span class="greenText">Lost 10kg</span> weight in 4 months</p>
+            </div>
+            <div class="transform_card">
+                <div class="transform_imgs">
+                    <img src="/Aamir-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/Aamir-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Aamir Khan</p>
+                <p class="transform_achievement"><span class="greenText">Lost 25kg</span> weight in 5 months</p>
+            </div>
+            <div class="transform_card">
+                <div class="transform_imgs">
+                    <img src="/Arjun-Fat.png" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/arjun-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Arjun Kapoor</p>
+                <p class="transform_achievement"><span class="greenText">Lost 50kg</span> weight in 4 years</p>
+            </div>
+            <div class="transform_card hidden">
+                <div class="transform_imgs">
+                    <img src="/sara-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/sara-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Sara Ali Khan</p>
+                <p class="transform_achievement"><span class="greenText">Lost 45kg</span> weight in 1.5 Years</p>
+            </div>
+            <div class="transform_card hidden">
+                <div class="transform_imgs hidden">
+                    <img src="/anant-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/anant-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Anant Ambani</p>
+                <p class="transform_achievement"><span class="greenText">Lost 108kg</span> weight in 18 months</p>
+            </div>
+            <div class="transform_card hidden">
+                <div class="transform_imgs">
+                    <img src="/bhumi-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/bhumi-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Bhumi Pednekar</p>
+                <p class="transform_achievement"><span class="greenText">Lost 30kg</span> weight in 1 years</p>
+            </div>
+            <div class="transform_card hidden">
+                <div class="transform_imgs">
+                    <img src="/sonakshi-fat.jpg" alt="">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <img src="/sonakshi-fit.jpg" alt="">
+                </div>
+                <p class="transform_name">Sonakshi Sinha</p>
+                <p class="transform_achievement"><span class="greenText">Lost 30kg</span> weight in 2.5 years</p>
+            </div>
+        </div>
+        <button type="button" class="view_more_transform">View More Transformations<i class="fa-solid fa-arrow-right-long"></i></button>
+    </section>
+    <section id="contact">
+        <div class="contact_grid_container">
+            <div class="contact_form">
+                <p class="greenText">CONTACT ME</p>
+                <h1>Let's Work Together</h1>
+                <form action="/user" method="post">
+                    <div class="contact_name_number">
+                        <input type="text" name="name" id="contact_name" placeholder="Your Name" required>
+                        <input type="number" name="number" id="contact_number" placeholder="Contact Number" required>
+                    </div>
+                    <input type="text" name="subject" id="contact_subject" placeholder="Fitness Goal" required>
+                    <textarea name="message" id="contact_message" placeholder="Express your Feelings Here" rows="5" cols="40"></textarea>
+                    <button type="submit">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="contact_info_img">
+                <div class="contact_info_card_holder">
+                    <div class="contact_info_card">
+                    <div class="contact_phone">
+                        <div class="phone_icon contact_icons_container"><i class="fa-solid fa-phone"></i></div>
+                        <div class="phone_text"><p class="contact_heading">Phone</p><p class="contact_detail">+91 9876543210</p></div>
+                    </div>
+                    <div class="contact_email">
+                        <div class="email_icon contact_icons_container"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="email_text">
+                            <p class="contact_heading">Email</p>
+                            <p class="contact_detail">callmesandy@gmail.com</p></div>
+                    </div>
+                    <div class="contact_location">
+                        <div class="location_icon contact_icons_container"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="location_text">
+                            <p class="contact_heading">Location</p>
+                            <p class="contact_detail">Gangnam, South Korea</p></div>
+                    </div>
+                    <div class="contact_socials">
+                        <div class="socials_icon contact_icons_container"><i class="fa-solid fa-user"></i></div>
+                        <div class="socials_text">
+                            <p class="contact_heading">Follow Me</p>
+                            <div>
+                                <a href="https://www.instagram.com" class="socials_anchor"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com" class="socials_anchor"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.x.com" class="socials_anchor"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.youtube.com"class="socials_anchor"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            <div class="contact_img">
+                <img src="Contact Trainer.png" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer_grid_container">
+            <div class="footer_motivation footer_grid_child">
+                <a href=""><img src="nav_logo.png" alt=""></a>
+                <p>Helping you transform your body and you life through fitness, nutrition and motivation.</p>
+                <a href="https://www.instagram.com" class="footer_motivation_anchor"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" class="footer_motivation_anchor"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.x.com" class="footer_motivation_anchor"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com" class="footer_motivation_anchor"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer_quick_links footer_grid_child">
+                <p>Quick Links</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#transform">Transformations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_services footer_grid_child">
+                <p>Services</p>
+                <ul>
+                    <li><a href="#services">Weight Loss</a></li>
+                    <li><a href="#services">Muscle Gain</a></li>
+                    <li><a href="#services">Nutrition Plans</a></li>
+                    <li><a href="#services">Online Coaching</a></li>
+                    <li><a href="#services">Personal Training</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact footer_grid_child">
+                <p>Contact</p>
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-phone"></i> +91 9876543210</a></li>
+                    <li><a href=""><i class="fa-solid fa-envelope"></i> callmesandy@gmail.com</a></li>
+                    <li><a href=""><i class="fa-solid fa-location-dot"></i> Gangnam, South Korea</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>@2026 sandynayakfitness.com. All Rights Reserved.</p>
+    </footer>
+
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/openai@7.27.0/index.min.js"></script>
+</body>
+</html>
